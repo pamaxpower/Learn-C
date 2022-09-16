@@ -7,7 +7,7 @@ Console.Clear();
 
 Console.WriteLine("Введите трехзначное число: ");
 
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
 // string num = Console.ReadLine();                         // решение через массив
 // int last = int.Parse(num[num.Length-1].ToString());

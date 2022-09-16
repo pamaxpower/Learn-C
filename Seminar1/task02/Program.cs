@@ -8,11 +8,11 @@ Console.Clear();
 
 Console.WriteLine("Введите первое число: ");
 
-int numberA = int.Parse(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите второе число: ");
 
-int numberB = int.Parse(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 
 int sqr = numberB * numberB;
 

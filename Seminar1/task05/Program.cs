@@ -6,11 +6,11 @@ Console.Clear();
 
 Console.WriteLine("Введите число: ");
 
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 int num_neg = -num;
 
 while (num_neg <= num)
 {
-    Console.Write(num_neg);
+    Console.Write($"{num_neg} ");
     num_neg++;
 }
