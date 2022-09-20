@@ -5,7 +5,7 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите первое число: ");
+Console.WriteLine("Введите число: ");
 
 int num = Convert.ToInt32(Console.ReadLine());
 
