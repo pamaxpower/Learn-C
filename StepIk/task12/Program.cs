@@ -14,8 +14,13 @@
 // }
 
 
-short x = 150;
+// short x = 150;
 
-byte y = (byte)(x + x);
+// byte y = (byte)(x + x);
 
-Console.WriteLine(y);
+// Console.WriteLine(y);
+
+int num = 1214;
+
+int a = num / 10;
+Console.WriteLine(a);
