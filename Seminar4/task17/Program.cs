@@ -17,7 +17,16 @@ void num_count(int num1)
         num1 = num1 / 10;                   // работает только с числом до 10 знаков
         count++;
     }
-    Console.WriteLine(count);
+    Console.WriteLine($"Количество цифр в числе: {count}");
 }
-
 num_count(num);
+
+/*
+Console.Clear();
+
+Console.WriteLine("Введите число:");
+string number = Console.ReadLine();
+int limit = number.Length;
+
+Console.WriteLine($"Количество цифр в числе: {limit}");
+*/

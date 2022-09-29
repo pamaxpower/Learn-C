@@ -9,7 +9,7 @@ switch (zad)
 {
     case 1:
         Console.Clear();
-        Console.WriteLine("Задача 1. Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.");
+        Console.WriteLine("Задача 1. Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.");
         Console.WriteLine("Решение: ");
         Console.WriteLine("Введите любое пятизначное число");
         int num = int.Parse(Console.ReadLine());
