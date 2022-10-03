@@ -16,6 +16,12 @@ if (A == 0 && B < 0)
 }
 else
 {
-    double exp = Math.Pow(A, B);
-    Console.WriteLine($"Если число {A} возвести в степень {B}, то получится {exp}");
+    //double exp = Math.Pow(A, B);
+
+    double exp = 1;
+    for (int i = 1; i <= B; i++)
+        {
+            exp =  exp * A;
+        }
+    Console.WriteLine($"Если число {A} возвести в степень {B}, то получится {Convert.ToInt32(exp)}");
 }
