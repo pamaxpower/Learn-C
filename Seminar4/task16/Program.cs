@@ -7,7 +7,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
 int GetSum(int num)
 {
