@@ -66,4 +66,3 @@ foreach (int element in numbers)                                // Цикл fore
 
 Console.WriteLine($"Сумма отрицательных чисел равна: {SumNegativeNumber}");
 Console.WriteLine($"Сумма положительных чисел равна: {SumPositiveNumber}");
-

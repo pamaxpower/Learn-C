@@ -19,7 +19,7 @@ void RandomArray (int [] array)         // Инициализация масси
     int len = array.Length;
     for (int i = 0; i < len; i++)
     {
-        array[i] = new Random().Next(0, 11);
+        array[i] = new Random().Next(0, 101);
     }
 }
 
@@ -58,7 +58,7 @@ else
 }
 Console.WriteLine($"Разница между средними арифметическими: {count}");
 
-int[] b = new int[5]; 
+int[] b = new int[10]; 
 
 void ConvertNum10ToNum2 (int num)                       // Перевод в двоичное число
 {
@@ -74,4 +74,18 @@ void ConvertNum10ToNum2 (int num)                       // Перевод в д�
             }
 }
 
+/*
+string ConvertNum10ToNum2 (int num)
+{
+    string result = string.Empty;
+    while (num > 0)
+    {
+        result = Convert.ToInt32(num) % 2 + result;
+        num = num / 2;
+    }
+    return result;
+}
+*/
+
+Console.WriteLine();
 ConvertNum10ToNum2(Convert.ToInt32(count));
