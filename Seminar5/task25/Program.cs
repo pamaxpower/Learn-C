@@ -2,7 +2,7 @@
 // Перевод числа в двоичную систему
 
 
-Console.WriteLine("ВВедите число");
+Console.WriteLine("Введите число");
 int count = Convert.ToInt32(Console.ReadLine());
 
 string ConvertNum10ToNum2 (int num)

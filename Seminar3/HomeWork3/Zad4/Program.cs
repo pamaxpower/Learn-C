@@ -8,7 +8,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите радиус круга");
-int r = int.Parse(Console.ReadLine());
+int r = Convert.ToInt32(Console.ReadLine());
 
 double squareCircle = Math.PI * Math.Pow(r, 2);
 

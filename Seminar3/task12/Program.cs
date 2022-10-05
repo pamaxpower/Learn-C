@@ -7,10 +7,10 @@
 Console.Clear();
 
 Console.WriteLine("Введите X: ");
-int x = int.Parse(Console.ReadLine());
+int x = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите Y: ");
-int y = int.Parse(Console.ReadLine());
+int y = Convert.ToInt32(Console.ReadLine());
 
 // if (x > 0)
 // {

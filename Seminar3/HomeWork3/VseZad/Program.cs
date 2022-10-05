@@ -3,7 +3,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите номер задачи, решение которой вы хотите посмотреть");
-int zad = int.Parse(Console.ReadLine());
+int zad = Convert.ToInt32(Console.ReadLine());
 
 switch (zad)
 {
@@ -12,7 +12,7 @@ switch (zad)
         Console.WriteLine("Задача 1. Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.");
         Console.WriteLine("Решение: ");
         Console.WriteLine("Введите любое пятизначное число");
-        int num = int.Parse(Console.ReadLine());
+        int num = Convert.ToInt32(Console.ReadLine());
 
         if (num > 9999 && num < 100000) 
         {
@@ -37,19 +37,19 @@ switch (zad)
         Console.WriteLine("Решение: ");
         Console.WriteLine("Введите координаты первой точки: ");
         Console.Write("x1= ");
-        int x1 = int.Parse(Console.ReadLine());
+        int x1 = Convert.ToInt32(Console.ReadLine());
         Console.Write("y1= ");
-        int y1 = int.Parse(Console.ReadLine());
+        int y1 = Convert.ToInt32(Console.ReadLine());
         Console.Write("z1= ");
-        int z1 = int.Parse(Console.ReadLine());
+        int z1 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Введите координаты второй точки: ");
         Console.Write("x2= ");
-        int x2 = int.Parse(Console.ReadLine());
+        int x2 = Convert.ToInt32(Console.ReadLine());
         Console.Write("y2= ");
-        int y2 = int.Parse(Console.ReadLine());
+        int y2 = Convert.ToInt32(Console.ReadLine());
         Console.Write("z2= ");
-        int z2 = int.Parse(Console.ReadLine());
+        int z2 = Convert.ToInt32(Console.ReadLine());
 
         double a = x1 - x2;
         double b = y1 - y2;
@@ -64,7 +64,7 @@ switch (zad)
         Console.WriteLine("Задача 3. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.");
         Console.WriteLine("Решение: ");
         Console.WriteLine("Введите число: ");
-        int number = int.Parse(Console.ReadLine());
+        int number = Convert.ToInt32(Console.ReadLine());
 
         int count = 1;
 
@@ -80,7 +80,7 @@ switch (zad)
         Console.Clear();
         Console.WriteLine("Напишите программу, которая на вход принимает радиус круга и находит его площадь округленную до целого числа, необходимо вывести максимальную цифру в полученном округлённом значении площади круга.");
         Console.WriteLine("Введите радиус круга");
-        int r = int.Parse(Console.ReadLine());
+        int r = Convert.ToInt32(Console.ReadLine());
         double squareCircle = Math.PI * Math.Pow(r, 2);
         int num1 = Convert.ToInt32(Math.Round(squareCircle, 0));
         Console.WriteLine($"Площадь круга равна: {num1}");

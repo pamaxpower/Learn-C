@@ -3,7 +3,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите номер задачи (1,2,3,4,5), решение которой вы хотите посмотреть");
-int zad = int.Parse(Console.ReadLine());
+int zad = Convert.ToInt32(Console.ReadLine());
 
 int[] FillArray (int size, int LowLimit, int PowLimit)                      // Заполнение массива
 {

@@ -7,7 +7,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите любое пятизначное число");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
 if (num > 9999 && num < 100000) 
 {

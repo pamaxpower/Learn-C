@@ -3,7 +3,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите целое число: ");
-int num10 = int.Parse(Console.ReadLine());
+int num10 = Convert.ToInt32(Console.ReadLine());
  
 int[] b = new int[5]; // массив с помощью которого двоичное число позже 
                                  //будет выведено с конца для правильного отображения 

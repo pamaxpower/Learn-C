@@ -3,7 +3,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите номер координатной четверти (1,2,3 или 4): ");
-int quarter = int.Parse(Console.ReadLine());
+int quarter = Convert.ToInt32(Console.ReadLine());
 
 void FindArgXY(int quarter)                             // Метод нахождения диапазона возможных координат точки, зная ее четверть
 {
