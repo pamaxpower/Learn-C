@@ -8,7 +8,7 @@ Console.Clear();
 string[] city = {"Москва", "Тюмень", "Новосибоирск", "Санкт-Петербург", "Краснодар", "Казань"};
 
 Console.WriteLine("Введите букву русского алфавита: ");
-string letter = Convert.ToInt32(Console.ReadLine());  // введенная буква
+string letter = Console.ReadLine();  // введенная буква
 
 int index = 0;
 
