@@ -36,6 +36,7 @@ int[] RigthShiftArray (int[] arr)                                               
 
     return rigthShift;
 }
+/*
 void ChangeElementsArray(int[] arr)                                             // Замена повторяющегося элемента, если рядом стоит одинаковый по значению элемент
 {
     for (int i = 0; i < arr.Length - 1; i++)
@@ -43,7 +44,21 @@ void ChangeElementsArray(int[] arr)                                             
         if (arr[i] == arr[i + 1]) arr[i + 1] = arr[i + 1] + 1;
     }
     Console.WriteLine($"Измененный массив: {String.Join(",", arr)} ");
+}*/
+void ChangeElementsArray(int[] arr)
+{
+    int n = max + 1;
+    for (int i = 0; i < arr.Length - 1; i++)
+    {
+        if (arr[i] == arr[i + 1])
+        {
+            arr[i + 1] = n;
+            n = n + 1;
+        }
+    }
+    Console.WriteLine($"Измененный массив: {String.Join(",", arr)} ");
 }
+
 
 string exit = "n";
 while (exit == "n")
