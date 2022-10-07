@@ -1,5 +1,5 @@
 ﻿// // Домашнее задание №6
-
+0
 Console.Clear();
 
 Console.WriteLine("Введите номер задачи (1,2,3,4), решение которой вы хотите посмотреть");
@@ -36,7 +36,7 @@ int[] RigthShiftArray (int[] arr)                                               
 
     return rigthShift;
 }
-/*
+
 void ChangeElementsArray(int[] arr)                                             // Замена повторяющегося элемента, если рядом стоит одинаковый по значению элемент
 {
     for (int i = 0; i < arr.Length - 1; i++)
@@ -44,7 +44,8 @@ void ChangeElementsArray(int[] arr)                                             
         if (arr[i] == arr[i + 1]) arr[i + 1] = arr[i + 1] + 1;
     }
     Console.WriteLine($"Измененный массив: {String.Join(",", arr)} ");
-}*/
+}
+/*
 void ChangeElementsArray(int[] arr)
 {
     int n = max + 1;
@@ -58,7 +59,7 @@ void ChangeElementsArray(int[] arr)
     }
     Console.WriteLine($"Измененный массив: {String.Join(",", arr)} ");
 }
-
+*/
 
 string exit = "n";
 while (exit == "n")
@@ -145,8 +146,8 @@ switch (zad)
         break;
 
     default:
-    Console.WriteLine("Такой задачи нет");
-    break;
+        Console.WriteLine("Такой задачи нет");
+        break;
 }
 Console.WriteLine();
 Console.Write("Выйти? (y/n): ");
