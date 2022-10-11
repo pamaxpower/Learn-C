@@ -129,6 +129,7 @@ void CompasionSumElement(int[,] inputArray)                                     
         }
     if (sumElementArrayColumn > sumElementCornerArray)
         Console.WriteLine($"Сумма элементов {j+1} столбца ({sumElementArrayColumn}) больше, чем сумма элементов углов массива ({sumElementCornerArray})");
+    else Console.WriteLine($"Сумма элементов {j+1} столбца ({sumElementArrayColumn}) меньше, чем сумма элементов углов массива ({sumElementCornerArray})");
     }
     //Console.WriteLine($"НЕТ");
 }
