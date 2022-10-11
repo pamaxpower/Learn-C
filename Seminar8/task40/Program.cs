@@ -2,7 +2,7 @@
 
 Console.Clear();
 
-int[] arr = { 2, 4, 5, 8, 9, 6, 3, 4, 7, 0 };
+int[] arr = { 6, 4, 5, 8, 9, 6, 3, 4, 7, 0 };
 Console.WriteLine($"Массив {String.Join(",", arr)}");
 
 int[] BubbleSortMinMax(int[] arr)                        // Сортировка массива от меньшего к большему

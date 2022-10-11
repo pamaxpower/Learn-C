@@ -79,12 +79,12 @@ void SumElementArrayRow(int[,] inputArray)                                      
 {
     for (int i = 0; i < inputArray.GetLength(0); i++)
     {
-        int sumElementArrayColumn = 0;
+        int sumElementArrayRow = 0;
         for (int j = 0; j < inputArray.GetLength(1); j++)
         {
-            sumElementArrayColumn = sumElementArrayColumn + inputArray[i,j];
+            sumElementArrayRow = sumElementArrayRow + inputArray[i,j];
         }
-    Console.WriteLine($"Сумма элементов {i+1} строки равна: {sumElementArrayColumn}");
+    Console.WriteLine($"Сумма элементов {i+1} строки равна: {sumElementArrayRow}");
     }
 }
 void MidSumElementArrayRow(int[,] inputArray)                                           // Среднее арифметическое строки массива
