@@ -17,12 +17,12 @@ int[,] array = FillArray(rowCount, columnCount, 1 , 10);
 PrintArray(array);
 Console.WriteLine();
 SumElementArrayColumn(array);
-Console.WriteLine();
-MidSumElementArrayColumn(array);
-Console.WriteLine();
-SumElementArrayRow(array);
-Console.WriteLine();
-MidSumElementArrayRow(array);
+// Console.WriteLine();
+// MidSumElementArrayColumn(array);
+// Console.WriteLine();
+// SumElementArrayRow(array);
+// Console.WriteLine();
+// MidSumElementArrayRow(array);
 
 
 

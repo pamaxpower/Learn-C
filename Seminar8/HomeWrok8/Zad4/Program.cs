@@ -9,8 +9,22 @@
 Console.Clear();
 
 int[,,] array = FillArray3d(10 , 99);
+
+//int[,,] array = GetUniqueValue(5, 10 , 99);
+
 PrintArray3d(array);
+
 Console.WriteLine();
+
+int GetUniqueValue(int currentValue, int min, int max)
+{
+    int uniqueVal = new Random().Next(min, max + 1);
+
+    if (currentValue == uniqueVal)
+        return GetUniqueValue(currentValue, min, max);
+    else
+        return uniqueVal;
+}
 
 int[,,] FillArray3d(int min, int max)
 {
@@ -21,7 +35,9 @@ int[,,] FillArray3d(int min, int max)
         {
             for (int k = 0; k < 2; k++)
             {
+                // int a = GetUniqueValue(0, 10, 99);
                 filledArray[i, j, k] = new Random().Next(min, max + 1);
+                // filledArray[i, j, k] = a;
             }
         }
     }
