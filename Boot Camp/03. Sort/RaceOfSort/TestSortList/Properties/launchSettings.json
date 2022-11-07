@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TestSortList": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Lenovo\\Learn C#"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

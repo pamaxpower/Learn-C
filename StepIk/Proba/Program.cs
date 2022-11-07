@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using System.Linq;
 
 Console.Clear();
@@ -19,12 +19,6 @@ Console.Clear();
 
 // Console.WriteLine("\t123");           // сдвиг вправо на tab
 
-
-// int a = 5;                           // тернарный оператор
-// int b = 7;
-
-// int c = a > b ? a - b : b - a;
-// Console.WriteLine(c);
 
 
 int[] myArray = {4,25,78,4,7,1,5,9,6};
